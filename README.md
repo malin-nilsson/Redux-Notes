@@ -1,5 +1,5 @@
 # Redux Notes App
-Simple note taking app to practice React Redux. Users can add and delete notes and toggle them as done/not done.
+Small project to mainly practice Redux. Users can add and delete notes and toggle them as done/not done.
 
 https://react-redux-notes.netlify.app
 
