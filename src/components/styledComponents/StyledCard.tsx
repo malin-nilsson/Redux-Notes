@@ -1,14 +1,16 @@
 import styled from 'styled-components'
+import { devices } from '../../breakpoints/Breakpoints'
 // Material UI //
 import { Switch } from '@mui/material'
 // Date fns //
 import { formatDistanceToNow } from 'date-fns'
+// Framer motion //
+import { motion } from 'framer-motion'
 // Redux //
 import { useDispatch, useSelector } from 'react-redux'
 import { remove, toggle } from '../../redux/features/NoteSlice'
 import { IState } from '../../redux/models/IState'
-import { devices } from '../../breakpoints/Breakpoints'
-import { motion } from 'framer-motion'
+// Styled components //
 import { StyledFlexWrapper } from './StyledFlexWrapper'
 
 export default function ShowNote() {

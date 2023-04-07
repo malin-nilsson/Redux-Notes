@@ -6,6 +6,7 @@ import { StyledHeader } from './styledComponents/StyledHeader'
 // Redux //
 import { useDispatch } from 'react-redux'
 import { add } from '../redux/features/NoteSlice'
+// Textarea Autosize //
 import TextareaAutosize from '@mui/material/TextareaAutosize'
 
 export default function AddNote() {
@@ -50,7 +51,6 @@ export default function AddNote() {
           />
           <span>{countCharacters()}</span>
         </StyledFlexWrapper>
-
         <StyledButton
           onClick={() => {
             dispatch(add(noteText))
